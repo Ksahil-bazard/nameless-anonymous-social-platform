@@ -34,10 +34,6 @@ Nameless is a full-stack anonymous social platform for college students to inter
 
 ---
 
-## 📸 Screenshots
-
-> (Add some UI screenshots here using `![alt text](link)` if you have deployed it or have sample UI)
-
 ---
 
 ## 📦 Installation
@@ -61,3 +57,41 @@ npm install
 # Start frontend
 npm start
 ```
+
+🧪 API Documentation
+All routes tested using Postman. Here's a sample:
+
+POST /api/users/register
+
+POST /api/users/login
+
+GET /api/posts
+
+POST /api/posts (protected)
+
+PUT /api/user/settings
+
+
+
+🤖 Machine Learning Integration
+Nameless uses TensorFlowJS to detect toxic comments using the toxicity model:
+
+Detects phrases labeled as toxic, obscene, threatening, etc.
+
+Filters or warns the user before submission.
+
+
+
+📧 Email Verification
+Implemented using Nodemailer with Gmail SMTP.
+
+One-time links valid for 10 minutes.
+
+
+🧑‍💻 Author
+Sahil Bazard
+
+⭐️ Show Your Support
+If you liked this project, please consider ⭐️ starring the repo!
+
+---
